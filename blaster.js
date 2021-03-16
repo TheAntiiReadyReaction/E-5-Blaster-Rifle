@@ -11,7 +11,7 @@ function turn_Off_On_Sound() {
 
 function rapidFire () {
   const lesson_iframe_src = location.href;
-  const ireadyWindow = window.open(lesson_iframe_src, "width=200, height=100");
+  const ireadyWindow = window.open(lesson_iframe_src, "", "width=200, height=100");
   
   turn_Off_On_Sound();
   alert("Now, go to the recently opened window and do what you must to start the lesson.");
